@@ -1,0 +1,395 @@
+html{scroll-behavior: smooth;}
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@media only all and (min-width: 768px)
+                and (max-width: 992px)
+{
+    .contact-img { width: 80%; margin-right: 50%;}
+
+    #info-me p 
+    { 
+        font-size: 16px; 
+        white-space: nowrap;  /* تجعل النص يستمر على نفس السطر حتى يتم العثور على <br>*/
+    }
+
+    #my-services { margin-bottom: 8%;}
+
+    #icon-serveice {  width: 150%;}
+    
+    #icon-serveice h3 {font-size: 16px;}
+    
+    .dit-box 
+    { 
+        margin-left: -40%;
+        margin-top: 10%;
+ 
+    }
+}
+@media only all and (min-width: 480px)
+                and (max-width: 767px)
+{
+    #rect-1
+    { 
+        width: 85%;
+        margin-left: -2%;
+    }
+    #rect-2
+    {
+        margin-left: 15%;
+        width: 85%;
+    }
+    .img-circle
+    {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -15%;
+        width: 35%;
+    }    
+    #p-center
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+
+    #btn-first
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn-first button
+    {    
+        min-width: 50%;
+        min-height: 40%;
+        margin: 3% 0 3% 0;
+    }
+
+    #info-me p 
+    { 
+        font-size: 16px; 
+        white-space: nowrap;  /* تجعل النص يستمر على نفس السطر حتى يتم العثور على <br>*/
+    }
+    .contact-img
+    {
+        display: none;
+    }
+
+
+}
+
+#rect-2
+{
+    margin-bottom: -5%;
+}
+
+.rect-1 ,.rect-2
+{
+    max-width: 90%;
+    max-height: 90%;;
+}
+ .rect-2
+{
+    margin: 5% -5% 8% 0;
+    float: right;
+}
+ .img-circle
+{
+    max-width: 100%;
+    max-height: 100%;
+         transform: scaleY(0.9); /* تم استخدام هذه الخاصية لتصغير طول الصورة */
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+#img-circular
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20%;
+}
+#p-center  
+{
+    font-family: poppins;
+
+    text-align: center; 
+    width: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+#p-center h3 , h5
+{
+    
+    color: #E694AD;
+}
+.title
+{
+    color: #CE6081;
+    
+}
+#icon-socail
+{
+    /*margin: 0 auto; /* Center Img 
+    transform: translate(27%,-360%);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+}
+ul li
+{
+    list-style: none;
+    display: inline-block;  
+    margin: 10px;
+    /*transform: translateX(-50%,-50%);*/
+}
+
+ul li a
+{
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:#87b477 1px solid;
+    
+    color: #87b477;
+    font-size: 24px;
+    padding: 25%;
+}
+ul li a:hover
+{   color: #ff5e9c;   
+    border:#ff5e9c 1px solid;
+    text-decoration: none;
+}
+    
+
+hr
+{
+    border: 0.3px solid #d1d1d1;
+    margin-top: -1%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn-first 
+{
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+#btn-first button
+{
+    font-family: poppins;
+    border-radius: 50px;
+    margin: 1%;  
+}
+
+#btn-portfolio
+{
+    background: #ff5e9c;
+    border: 2px solid #ff5e9c;
+  
+}
+#btn-portfolio:hover
+{
+    background: #ffffff;
+    border: 2px solid #ff5e9c;
+    color: #ff5e9c;
+}
+
+#btn-aboutme
+{
+    background: #ffffff;
+    border: 2px solid #ff5e9c;
+    color: #ff5e9c;
+}
+#btn-aboutme:hover
+{
+    background: #ff5e9c;
+    border: 2px solid #ff5e9c;
+    color: #ffffff;
+}
+
+#about-me h1
+{
+    color: #fffbfb;
+    transform: rotate(-27deg);
+    font-family: poppins;
+    position: absolute;
+        bottom: 40%;
+        left: 10%;
+}
+#about-me
+    {   margin: 7% 0 0 -4%; }
+#info-me
+    {   margin: 0% 0 0 -10%; }
+
+#info-me p
+{
+    font-size: 18px;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+#info-me span
+{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: poppins;
+    color: #FF81AE;
+    margin: 5%;
+}
+#info-me img
+{
+    width: 300%;
+
+    position: absolute;
+        left: 390%;
+    transform: translateY(-30%);
+}
+
+#hello-h2 h2{
+ 
+    font-weight: bold;
+    font-family: poppins;
+    color: #FF81AE;
+    margin: 5% 5% 5% 8%;
+}
+#hello-h2 p
+{
+    font-size: 18px;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+#my-services 
+{
+    font-family: poppins;
+    color: #ff5e9c;
+      
+    width: 70vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(50%);
+}
+#my-services h1
+{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.line-1 ,.line-2
+{ 
+    height: 1px;
+    background: #ff94d6;
+}
+.line-2{  margin-bottom: 10%;  margin-top: 5%;}
+
+#icon-serveice
+{   margin-top: 5%; }
+#icon-serveice .col-md-4:hover
+{
+    box-shadow: 5px 6px 15px #ffdef2;
+    cursor: pointer;
+	
+    transition: 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+#icon-serveice img
+{
+    width: 15%;
+    display: block;
+    margin: 10% auto 0% auto;
+    transform: translateX(15%);
+}
+#icon-serveice h3
+{
+
+    display: inline-block;
+    text-align: center;
+
+    margin-top: 3%;
+      /* transform: translateX(70%); */
+   
+      color: #ff5e9c;
+    font-family: poppins;
+    font-size: 23px;
+} 
+
+.dit-box
+{     color: #777373;
+    font-size: 16px;
+   
+    padding-bottom: 5%;
+    white-space: pre;
+    transform: translateX(-15%);
+    display: inline-block;
+    text-align: center;
+
+}
+.line-3 ,.line-4
+{ 
+    height: 1px;
+    background: #ff94d6;
+    width: 30%;
+
+   margin: 3% auto 3% auto;
+
+}
+#h2-form h1
+{
+    width: 70%;
+    text-align: center;
+    margin: 3% auto 3% auto;
+
+    color: #ff5e9c;
+    font-family: poppins;
+ 
+}
+
+#form
+{ 
+    margin-bottom: 3%;
+    color: #ff5e9c;
+    box-shadow: 5px 5px 30px #fcc7da;
+   padding: 3%;
+}
+
+#form .btn
+{
+    background: #ff5e9c;
+    border: 1px solid #ff5e9c;
+}
+iframe
+{
+    box-shadow: 5px 5px 30px #fdd7e5;
+    border: 10px solid #161516;
+    margin: 6% 0 3% -1%;
+    width: 100%;
+    height: 95%;
+}
+#icon-socail-bottom
+{
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+#icon-socail-bottom p 
+{
+    color: #ca97a6;
+}
