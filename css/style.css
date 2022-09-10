@@ -21,16 +21,18 @@ html{scroll-behavior: smooth;}
 
     #icon-serveice {  width: 150%;}
     
-    #icon-serveice h3 {font-size: 16px;}
+    #icon-serveice h3 {font-size: 16px; }
     
     .dit-box 
     { 
+        /* margin-left: -20%;
+        margin-top: 15%; */
         margin-left: -40%;
-        margin-top: 10%;
- 
+        font-size: 12px;
+        white-space: pre;
     }
 }
-@media only all and (min-width: 480px)
+@media only all and (min-width: 360px)
                 and (max-width: 767px)
 {
     #rect-1
@@ -81,7 +83,6 @@ html{scroll-behavior: smooth;}
     {
         display: none;
     }
-
 
 }
 
@@ -321,21 +322,21 @@ hr
     display: inline-block;
     text-align: center;
 
-    margin-top: 3%;
+    margin: 3% 0 0 0%;
       /* transform: translateX(70%); */
    
       color: #ff5e9c;
     font-family: poppins;
-    font-size: 23px;
+
 } 
 
 .dit-box
 {     color: #777373;
-    font-size: 16px;
+    
    
-    padding-bottom: 5%;
-    white-space: pre;
-    transform: translateX(-15%);
+    padding: 5%;
+    
+    transform: translateX(1%);
     display: inline-block;
     text-align: center;
 
