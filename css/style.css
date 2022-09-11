@@ -25,8 +25,6 @@ html{scroll-behavior: smooth;}
     
     .dit-box 
     { 
-        /* margin-left: -20%;
-        margin-top: 15%; */
         margin-left: -40%;
         font-size: 12px;
         white-space: pre;
@@ -42,7 +40,7 @@ html{scroll-behavior: smooth;}
     }
     #rect-2
     {
-        margin-left: 15%;
+        margin-left: 25%;
         width: 85%;
     }
     .img-circle
@@ -82,6 +80,17 @@ html{scroll-behavior: smooth;}
     .contact-img
     {
         display: none;
+    }
+    #h2-form h1
+    {
+   
+        font-size: 30px;
+    }
+
+    ul li a
+    {
+        max-width: 40px;
+        max-height: 40px;
     }
 
 }
@@ -321,21 +330,16 @@ hr
 
     display: inline-block;
     text-align: center;
-
-    margin: 3% 0 0 0%;
-      /* transform: translateX(70%); */
-   
+    margin: 3% 0 0 0%; 
       color: #ff5e9c;
     font-family: poppins;
 
 } 
 
 .dit-box
-{     color: #777373;
-    
-   
+{     
+    color: #777373; 
     padding: 5%;
-    
     transform: translateX(1%);
     display: inline-block;
     text-align: center;
@@ -346,8 +350,7 @@ hr
     height: 1px;
     background: #ff94d6;
     width: 30%;
-
-   margin: 3% auto 3% auto;
+   margin: 10% auto 7% auto;
 
 }
 #h2-form h1
@@ -355,18 +358,16 @@ hr
     width: 70%;
     text-align: center;
     margin: 3% auto 3% auto;
-
     color: #ff5e9c;
     font-family: poppins;
- 
 }
 
 #form
 { 
-    margin-bottom: 3%;
+    margin: 0 0 3% 6%;
     color: #ff5e9c;
     box-shadow: 5px 5px 30px #fcc7da;
-   padding: 3%;
+    padding: 3%;
 }
 
 #form .btn
@@ -380,7 +381,7 @@ iframe
     border: 10px solid #161516;
     margin: 6% 0 3% -1%;
     width: 100%;
-    height: 95%;
+    height: 75%;
 }
 #icon-socail-bottom
 {
